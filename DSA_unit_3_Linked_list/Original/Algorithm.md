@@ -1,0 +1,43 @@
+## Algorithm:
+
+Step 1: Start the program.
+
+Step 2: Initialize the linked list with head = NULL.
+
+Step 3: Display the grocery list menu with the following options:
+
+Add item
+
+Display list
+
+Search item
+
+Update quantity
+
+Delete item
+
+Exit
+
+Step 4: Ask the user to select an option.
+
+Step 5: Perform the selected operation:
+
+Add: Create a new node and insert the grocery item at the end of the list.
+
+Display: Traverse the linked list and display
+
+Display: Traverse the linked list and display all grocery items.
+
+Search: Find the required item by its name.
+
+Update: Search for an item and change its quantity.
+
+Delete: Search for an item and remove its node from the list.
+
+Step 6: Display the result of the selected operation.
+
+Step 7: Repeat Steps 3-6 until the user selects Exit.
+
+Step 8: Free the memory used by all remaining nodes.
+
+Step 9: Stop the program
