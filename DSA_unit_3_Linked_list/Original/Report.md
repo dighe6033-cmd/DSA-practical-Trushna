@@ -44,7 +44,7 @@ Delete Item: O(n) – The list is traversed to find and delete the required item
 
 Here, n represents the total number of grocery items in the linked list.
 
-2. Space Complexity
+2.Space Complexity
  
 O(n) – Memory is required to store all grocery items in dynamically allocated nodes.
 
