@@ -3,7 +3,7 @@
 #include <queue>
 using namespace std;
 
-void BFS(vector<vector<int>>& graph, int start)
+void BFS (vector<vector<int> >& graph, int start)
 {
     int n = graph.size();
 
@@ -25,12 +25,16 @@ void BFS(vector<vector<int>>& graph, int start)
         cout << current << " ";
         count++;
 
-        for (int neighbour : graph[current])
-        {
-            if (!visited[neighbour])
-            {
-                visited[neighbour] = true;
-                q.push(neighbour);
+        for (int i = 0; i < graph[current].size(); i++)
+{
+    int neighbour = graph[current][i];
+
+    if (!visited[neighbour])
+    {
+        visited[neighbour] = true;
+        q.push(neighbour);
+    
+
             }
         }
     }
@@ -52,7 +56,7 @@ int main()
         return 0;
     }
 
-    vector<vector<int>> graph(n);
+    vector<vector<int> > graph(n);
 
     cout << "Enter number of direct bus routes: ";
     cin >> e;
